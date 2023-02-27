@@ -278,7 +278,7 @@ main{
   padding-top: 300px;
 }
 
-main::before{
+#section-plans::before{
   content: '';
   display: block;
   height: 80px;
