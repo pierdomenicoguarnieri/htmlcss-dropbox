@@ -141,6 +141,10 @@ h4{
   padding-left: 5px;
 }
 
+.pl-3{
+  padding-left: 30px;
+}
+
 .pb-3{
   padding-bottom: 30px;
 }
@@ -345,5 +349,21 @@ main{
 }
 
 .horizontal-card{
-  height: 200px;
+  border: 1px solid #D0D0D3;
+}
+
+.horizontal-card .horizontal-content{
+  padding: 30px 30px;
+}
+
+.horizontal-content .horizontal-left{
+  width: 70%;
+}
+
+.horizontal-content .horizontal-right{
+  width: 30%;
+}
+
+.horizontal-right .btn.big{
+  width: 100%;
 }
