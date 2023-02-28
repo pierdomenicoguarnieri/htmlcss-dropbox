@@ -23,7 +23,7 @@ main{
   justify-content: space-between;
 }
 
-.col{
+#section-plans .row .col{
   width: calc(100%/3.5);
   height: 1000px;
   border: 1px solid #D0D0D3;
@@ -117,4 +117,14 @@ main{
   color: black;
   font-size: 16px;
   font-weight: 400;
+}
+
+.features .row.flex-container{
+  flex-wrap: wrap;
+}
+
+.features .col{
+  width: calc(100%/3);
+  min-width: 300px;
+  flex-direction: column;
 }

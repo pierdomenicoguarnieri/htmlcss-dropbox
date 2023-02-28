@@ -122,12 +122,32 @@
   padding-left: 50px;
 }
 
+.pr-05{
+  padding-right: 5px;
+}
+
+.pr-3{
+  padding-right: 30px;
+}
+
+.pr-4{
+  padding-right: 40px;
+}
+
+.pr-5{
+  padding-right: 50px;
+}
+
 .pb-3{
   padding-bottom: 30px;
 }
 
 .bold{
   font-weight: 700;
+}
+
+.underline{
+  text-decoration: underline;
 }
 
 .debug{
