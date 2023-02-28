@@ -193,3 +193,14 @@ main{
 .company-card.yellow-b{
   background-color: #FFD830;
 }
+
+.companies-container.center-content{
+  background-color: #F5F5F5;
+  overflow: scroll;
+  padding: 60px;
+}
+
+.companies-container.center-content img{
+  width: 180px;
+  border-bottom: 1px solid #D0D0D3;
+}
