@@ -162,6 +162,10 @@ main{
   filter: invert(100%);
 }
 
+.company-card.active{
+  border: 10px solid #D0E9CD;
+}
+
 .company-card.green-b{
   background-color: #A2D39B;
 }
@@ -203,4 +207,33 @@ main{
 .companies-container.center-content img{
   width: 180px;
   border-bottom: 1px solid #D0D0D3;
+}
+
+.companies.undertext{
+  height: 300px;
+  background-color: #B4D0E7;
+}
+
+.undertext .small-container{
+  height: 100%;
+}
+
+.undertext.left-content{
+  align-items: center;
+  width: 70%;
+  height: 100%;
+}
+
+.undertext.left-content h2{
+  color: #61082B;
+}
+
+.undertext.right-content{
+  width: 30%;
+  align-self: center;
+}
+
+.btn.borderless{
+  border: none;
+  width: 100%;
 }
