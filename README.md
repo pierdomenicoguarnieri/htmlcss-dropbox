@@ -8,8 +8,8 @@ Riprodurre fedelmente, in maniera non ancora del tutto responsive ma un minimo a
 ## Issues
 1. Sto riscontrando alcuni problemi con la pulizia del codice HTML e CSS e con la nominazione delle classi
 
-## Issues solutions
-...
+## Issues fixes
+1. Separazione del file CSS in diverse sezioni, ognuna delle quali contiene lo styling di una porzione di codice HTML.
 
 ## Major changes
 ...
