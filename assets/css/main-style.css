@@ -210,18 +210,19 @@ main{
 }
 
 .companies.undertext{
+  justify-content: center;
+  align-items: center;
   height: 300px;
   background-color: #B4D0E7;
 }
 
 .undertext .small-container{
-  height: 100%;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .undertext.left-content{
-  align-items: center;
-  width: 70%;
-  height: 100%;
+  width: 50%;
 }
 
 .undertext.left-content h2{
@@ -230,10 +231,26 @@ main{
 
 .undertext.right-content{
   width: 30%;
-  align-self: center;
 }
 
 .btn.borderless{
   border: none;
   width: 100%;
+}
+
+.question{
+  border-top: 1px solid #D0D0D3;
+}
+
+.question:last-child{
+  border-bottom: 1px solid #D0D0D3;
+}
+
+.question h5{
+  width: 95%;
+}
+
+.question i{
+  width: 5%;
+  align-self: center;
 }
