@@ -32,10 +32,54 @@ footer li a:hover{
 }
 
 footer .language{
-color: #999999;  
+  color: #999999;
+  position: relative;
 }
 
 .language span{
   font-size: 14px;
   cursor: pointer;
+}
+
+.language .dropdown-menu{
+  list-style: none;
+}
+
+.language .dropdown-menu a{
+  color: #999999;
+}
+
+
+.language >.dropdown-menu li, .language >.dropdown-menu a{
+  width: 150px;
+  height: fit-content;
+  line-height: normal;
+  font-size: 14px;
+}
+
+.language .dropdown-menu{
+  position: absolute;
+  width: 150px;
+  top: 0px;
+  left: 0px;
+  background-color: black;
+  opacity: 0;
+  overflow: hidden;
+  transition: all .1s;
+}
+
+.language img{
+  width: 20px;
+}
+
+.language:hover .dropdown-menu{
+  top: -98px;
+  left: 0px;
+  opacity: 1;
+  border: 1px solid white;
+}
+
+.language .dropdown-menu a:hover{
+  background-color: black;
+  border: none;
 }
