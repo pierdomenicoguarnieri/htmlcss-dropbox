@@ -31,6 +31,7 @@ footer li a:hover{
   border-bottom: 1px solid white;
 }
 
+/* Language e Dropdown Menu */
 footer .language{
   color: #999999;
   position: relative;
@@ -89,3 +90,4 @@ footer .language{
   background-color: black;
   text-shadow: 0 0 2px white;
 }
+/* /Language e Dropdown Menu */

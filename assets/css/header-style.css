@@ -44,6 +44,7 @@ header ul li a:hover{
   margin-right: 50px;
 }
 
+/* Dropdown menu */
 .dropdown{
   position: relative;
 }
@@ -76,3 +77,4 @@ header ul li a:hover{
   background-color: #EBEAEA;
   border: none;
 }
+/* /Dropdown menu */

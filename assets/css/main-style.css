@@ -2,6 +2,7 @@ main{
   padding-top: 300px;
 }
 
+/* Section Plans */
 #section-plans::before{
   content: '';
   display: block;
@@ -129,7 +130,9 @@ li.icon::before{
   width: 100%;
   font-size: 16px;
 }
+/* /Section Plans */
 
+/* Section Find Partner */
 #find-partner {
   height: 550px;
 }
@@ -151,7 +154,9 @@ li.icon::before{
 #find-partner .find-partner-right p{
   line-height: 30px;
 }
+/* /Section Find Partner */
 
+/* Section Features */
 #features .row.flex{
   flex-wrap: wrap;
 }
@@ -161,7 +166,9 @@ li.icon::before{
   min-width: 300px;
   flex-direction: column;
 }
+/* /Section Features */
 
+/* Section Companies */
 #companies a{
   text-decoration: underline;
   color: #0061FF;
@@ -265,7 +272,9 @@ li.icon::before{
 #companies > .undertext .right-content{
   width: 30%;
 }
+/* /Section Companies */
 
+/* Section Frequent Questions */
 .question{
   border-top: 1px solid #D0D0D3;
 }
@@ -308,3 +317,4 @@ li.icon::before{
 .question:hover .arrow-up{
   display: none;
 }
+/* /Section Frequent Questions */
