@@ -226,6 +226,14 @@ main{
   border-top: 1px solid #D0D0D3;
 }
 
+.question.flex{
+  flex-direction: column;
+}
+
+.shown.flex{
+  flex-direction: row;
+}
+
 .question:last-child{
   border-bottom: 1px solid #D0D0D3;
 }
@@ -234,7 +242,25 @@ main{
   width: 95%;
 }
 
-.question i{
+.question i, .question .hidden.arrow{
   width: 5%;
   align-self: center;
+}
+
+.question .hidden{
+  width: 80%;
+  display: none;
+}
+
+.question:hover .hidden.text{
+  display: block;
+  color: #647381;
+}
+
+.question:hover .hidden.arrow{
+  display: inline-block;
+}
+
+.question:hover .arrow-up{
+  display: none;
 }
