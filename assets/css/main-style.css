@@ -51,7 +51,8 @@ main{
   font-weight: 600;
 }
 
-.col-content span.underlined{
+.horizontal-row{
+  width: 50px;
   border-bottom: 1px solid #D0D0D3;
 }
 
@@ -195,7 +196,6 @@ main{
 .companies-container > .center-content img{
   width: 30%;
   min-width: 80px;
-  border-bottom: 1px solid #D0D0D3;
 }
 
 #companies > .undertext{
