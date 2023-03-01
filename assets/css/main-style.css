@@ -51,6 +51,37 @@ main{
   font-weight: 600;
 }
 
+.plan-option ul{
+  list-style: none;
+}
+
+li.icon::before{
+  font-family: 'FontAwesome';
+  margin-right: 5px;
+  padding-top: 1px;
+}
+
+.icon.user::before{
+  content: "\f234";
+}
+
+.icon.folder::before{
+  content: "\f07b";
+}
+
+.icon.pencil::before{
+  content: "\f303";
+}
+
+.icon.smile::before{
+  content: "\f118";
+}
+
+.check > .icon::before{
+  color: #0061FF;
+  content: "\f00c";
+}
+
 .horizontal-row{
   width: 50px;
   border-bottom: 1px solid #D0D0D3;
