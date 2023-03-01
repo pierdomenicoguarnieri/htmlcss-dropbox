@@ -46,7 +46,6 @@ header ul li a:hover{
 
 .dropdown{
   position: relative;
-  z-index: 0;
 }
 
 .dropdown-menu li, .dropdown-menu a{
