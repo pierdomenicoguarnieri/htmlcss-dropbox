@@ -123,15 +123,15 @@ main{
 }
 
 .companies-container{
-  height: 500px;
+  height: 30vw;
 }
 
 .companies-container > .left-content, .companies-container > .right-content{
-  width: 500px;
+  width: 30vw;
 }
 
 .companies-container > .center-content{
-  width: calc(100% - 1000px);
+  width: 40vw;
 }
 
 .companies-container .left-content.flex, .companies-container .right-content.flex{
@@ -193,7 +193,8 @@ main{
 }
 
 .companies-container > .center-content img{
-  width: 180px;
+  width: 30%;
+  min-width: 80px;
   border-bottom: 1px solid #D0D0D3;
 }
 
