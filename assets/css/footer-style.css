@@ -18,9 +18,13 @@ footer .col ul li{
   padding-bottom: 5px;
 }
 
-footer a{
+footer li a{
   color: white;
   font-size: 15px;
+}
+
+footer li a:hover{
+  text-decoration: underline;
 }
 
 .col:first-child{
