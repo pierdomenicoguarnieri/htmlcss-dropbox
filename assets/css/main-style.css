@@ -203,7 +203,7 @@ li.icon::before{
 }
 
 .company-card.active{
-  border: 10px solid #D0E9CD;
+  border: 10px solid rgba(255,255,255,0.5);
 }
 
 .company-card.green-b{
